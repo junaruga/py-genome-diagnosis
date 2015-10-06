@@ -9,3 +9,5 @@
 *.BAK
 # Pyenv
 .python-version
+# This project
+genome/genome/__pycache__
