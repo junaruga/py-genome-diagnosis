@@ -7,10 +7,16 @@ class Snp(models.Model):
     chromosome = models.CharField(max_length=2)
     chromosome_position = models.IntegerField()
 
+    def __str__(self):
+        return self.name
+
 
 class Disease(models.Model):
     disease_id = models.IntegerField()
     name = models.CharField(max_length=128)
+
+    def __str__(self):
+        return self.name
 
 
 class SnpDisease(models.Model):
