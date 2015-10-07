@@ -16,3 +16,7 @@ migrate:
 # ex. make sqlmigrate N=0001
 sqlmigrate:
 	python ./genome/manage.py sqlmigrate diagnosis $(N)
+
+# Shell loading django settings modules in settings.py.
+shell:
+	python ./genome/manage.py shell
