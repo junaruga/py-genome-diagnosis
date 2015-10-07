@@ -12,3 +12,7 @@ sql:
 
 migrate:
 	python ./genome/manage.py migrate
+
+# ex. make sqlmigrate N=0001
+sqlmigrate:
+	python ./genome/manage.py sqlmigrate diagnosis $(N)
