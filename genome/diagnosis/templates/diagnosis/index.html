@@ -1,0 +1,9 @@
+{% if diseases %}
+    <ul>
+    {% for disease in diseases %}
+        <li><a href="{% url 'results' disease.disease_id %}">{{ disease.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No diseases are available.</p>
+{% endif %}
