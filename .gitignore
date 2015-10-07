@@ -10,4 +10,4 @@
 # Pyenv
 .python-version
 # This project
-genome/genome/__pycache__
+__pycache__
