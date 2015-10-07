@@ -11,3 +11,4 @@
 .python-version
 # This project
 __pycache__
+genome/db.sqlite3
